@@ -22,10 +22,9 @@ then after the indeing is done Select a simulator and hit run.
 
 ### Prerequisites
 
+```
 Xcode.
 Android Studio.
-```
-Give examples
 ```
 
 ### Installing
