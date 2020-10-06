@@ -1,16 +1,29 @@
 # guess-the-number-game
-# Project Title
 
-One Paragraph of project description goes here
+It's a Quite Simple One you have to guess a number and after that, on the next screen Computer has to Guess the correct number which was chosen by you.
+Computer Didn't know about Your Gusset He Will Give you the Random Number at First, what you can do is, You can Give Hints to the Computer that the Number is LOWER AND GRATER as Compare to the Correct Number.
+Accordingly, Your Hint Computer Will Again Generate New Random Number.
+That All About Game.
+
+It a REACT NATIVE Application will run on iOS and Android(react-native:0.63.2).
+And will run on both orientations.
+The most important thing is there in no NATIVE SIDE Code.
+No Class-Based Components.
+The app is built with Functional Components and Hooks Only.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+clone this project 
+and in the main project hit npm-install,
+then go to the ios/ folder and hit pod install and come back to the main folder with ../
+then hit npm-start.
+after that open your Xcode and onen my project ReactNativeAssignment.xcworkspace (this file is available in ios folder).
+then after the indeing is done Select a simulator and hit run.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
+Xcode.
+Android Studio.
 ```
 Give examples
 ```
@@ -22,67 +35,15 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be
 
 ```
-Give the example
+cd guess-the-number-game/guess-the-number-game
+rm -rf package.lock.js
+npm install
+cd ios/
+rm -rf pod.lock
+pod install
+../
+npm start
 ```
 
 And repeat
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
